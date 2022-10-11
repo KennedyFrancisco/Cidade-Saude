@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    padding-top: 5px;
+}
+
+.logo {
+    width: 250 px;
+    height: 130px;
+    background: url(../imagens/logo-menor.png) no-repeat center left;
+    text-indent: -3000px;
+}
+
+/* --------------------  Barra de Navegacao -------------------- */
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul#menu {
+    background: #b10333;
+    float: left;
+}
+
+ul#menu li {
+    float: left;
+}
+
+ul#menu a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+}
