@@ -7,22 +7,89 @@
     <title>Cidade Saude - Seu site de noticias</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
+<body id="tres-colunas" class="home">
+<!-- Inicio Container -->
     <div id="container">
 
+<!-- Inicio Topo -->
         <div id="topo">
             <h1 class="logo">Cidade Saude</h1>
             <ul id="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Noticias</a></li>
-                <li><a href="">Medicina</a></li>
-                <li><a href="">Enfermagem</a></li>
-                <li><a href="">Hospitais</a></li>
-                <li><a href="">Quem somos</a></li>
+                <li class="primeiro"><a id="home" href="">Home</a></li>
+                <li><a id="noticias" href="">Noticias</a></li>
+                <li><a id="medicina" href="">Medicina</a></li>
+                <li><a id="enfermagem" href="">Enfermagem</a></li>
+                <li><a id="hospitais" href="">Hospitais</a></li>
+                <li><a id="quem-somos" href="">Quem somos</a></li>
             </ul>
         </div>
 
+<!-- Inicio Conteudo -->
+        <Div id="conteudo">
+
+            <div id="primario"> 
+                <div class="caixa">
+                    <h2>Noticias</h2>
+                    <div class="caixa-conteudo">
+                        conteudo
+                    </div>
+                </div>
+            </div>
+
+            <div id="segundario"> 
+                <div class="caixa">
+                    <h2>Medicina</h2>
+                    <div class="caixa-conteudo">
+                        conteudo
+                    </div>
+                </div>
+            </div>
+            
+<!--  Inicio Lateral -->  
+            <div id="lateral"> 
+                <div class="caixa">
+                    <h2>Hospitais</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">Israelita Albert Einstein</a></li>
+                            <li><a href="">Sirio-Libanês</a></li>
+                            <li><a href="">Samaritano de São Paulo</a></li>
+                            <li><a href="">Alemão Oswaldo Cruz</a></li>
+                            <li><a href="">Santa Paula</a></li>
+                            <li><a href="">Infantil Sabara</a></li>
+                            <li><a href="">Edmundo Vasconcelos</a></li>
+                            <li><a href="">9 de julho</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                       <form>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" placeholder="E-mail">
+                        </div>
+
+                        <div>
+                            <input class="submit" type="submit" value="Cadastrar">
+                        </div>
+                       </form>
+                    </div>
+                </div>
+            </div>
+
+        </Div>
+
     </div>
+
+<div id="container-rodape" style="clear: both;">
+    <div id="rodape">
+        &copy; Copyright 2020-2022 Cidade Saude
+    </div>
+</div>
+
     
 </body>
 </html>

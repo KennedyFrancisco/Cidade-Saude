@@ -14,7 +14,8 @@ body {
 }
 
 #topo {
-    height: 150px;
+    height: 180px;
+    background: url(../imagens/detalhe-topo2.png) no-repeat right top;
     padding-top: 5px;
 }
 
@@ -32,20 +33,145 @@ ul {
     list-style: none;
 }
 
-ul#menu {
-    background: #b10333;
+#topo ul {
+    background: #1687B5;
     float: left;
 }
 
-ul#menu li {
+#topo ul li {
     float: left;
 }
 
-ul#menu a {
+#topo ul a {
     font-size: 0.9em;
     display: block;
     padding: 0.5em 1.5em;
     line-height: 2.1em;
     text-decoration: none;
     color: white;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #155671;
+}
+
+body.home #menu a#home,
+body.noticias #menu a#noticias,
+body.medicina #menu a#medicina,
+body.enfermagem #menu a#enfermagem,
+body.hospitais #menu a#hospitais,
+body.quem-somos #menu a#quem-somos {
+    color: #fff;
+    background: #2f9dca;
+    cursor: text;
+}
+
+/* ------------- Contudo -------------- */
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+
+#uma-colunas #primario {
+    width: 750px;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+#segundario {
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 15px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0px 0px 20px -750px;
+}
+
+/* ------------- Caixa ------------ */
+.caixa {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+/* ------------- Formatar menus laterais -------------- */
+#lateral ul a {
+    font-size: 0.8em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+/* ------------- Formatando formulario ------------- */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #155671;
+    border: 2px solid #0e3749;
+}
+
+/* ------------- Rodape ------------ */
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 720px;
+    margin: 0 auto;
+    color: #fff;
 }
