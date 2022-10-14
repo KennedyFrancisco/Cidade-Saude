@@ -164,6 +164,34 @@ input.submit {
     border: 2px solid #0e3749;
 }
 
+/* ------------- Formatando imagens ---------- */
+img {
+    border: 2px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.novidade h3 {
+    background: #155671;
+    color: #fff;
+}
+
+.medicina h3 {
+    background: #0073a5;
+}
+
+#conteudo p {
+    font-size: 0.9em;
+}
+
+.caixa a {
+    color: #2f9dca;
+}
 /* ------------- Rodape ------------ */
 #container-rodape {
     background: #294c71;
